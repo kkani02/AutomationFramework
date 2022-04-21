@@ -35,7 +35,7 @@ public class basketSteps extends CommonFunction {
         driver.findElement(By.id("add-to-cart-button")).click();
     }
 
-    @Then("I should be able to see the product added on the basket")
+   /* @Then("I should be able to see the product added on the basket")
     public void verifyBasket() {
 
 
@@ -53,5 +53,5 @@ public class basketSteps extends CommonFunction {
 
         Double totalPrice = Double.parseDouble(driver.findElement(By.xpath("//span[@id='sc-subtotal-amount-activecart']//span")).getText());
         Assert.assertEquals(calculatePrice,totalPrice);
-    }
+    }*/
 }

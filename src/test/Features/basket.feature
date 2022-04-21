@@ -13,7 +13,7 @@ Feature: Basket
     And I select the product "<selectOption>"
     And I select the size and colour
     And I click Add to Basket
-   Then I should be able to see the product added on the basket
+   #Then I should be able to see the product added on the basket
 
     Examples:
       | searchOption | selectOption                                                 |
